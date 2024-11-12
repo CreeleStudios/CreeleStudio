@@ -23,7 +23,8 @@ const ProjectLoaded = [
     content:
       "Unconditional love between parents and children can sometimes be hard to maintain, as seen in this musical about a strict father and his rebellious son.",
     img: ProjectCard2,
-    url: "/connect",
+    // url: "/connect",
+    url: ''
   },
 ];
 

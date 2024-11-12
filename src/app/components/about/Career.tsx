@@ -73,6 +73,7 @@ export default function Career() {
                     <p className="text-sm opacity-80">{items.requirements}</p>
                   </div>
                   <Link
+                    target="_blank"
                     href={
                       "https://airtable.com/app2BTfHuoEs6H1zu/pagyJVqUISwVrYAxY/form"
                     }
@@ -88,6 +89,7 @@ export default function Career() {
         </div>
         <div className="flex h-fit items-center justify-center">
           <Link
+            target="_blank"
             href={
               "https://airtable.com/app2BTfHuoEs6H1zu/pagyJVqUISwVrYAxY/form"
             }

@@ -76,7 +76,7 @@ export default function Satchel() {
         <div className="padding_product pb-20 lg:pt-20 pt-10 md:pt-16 about_sections relative">
                 <button
                     onClick={()=>router.back()}
-                    className="relative bb flex items-center justify-center h-16 w-16 md:h-24 md:w-24 mb-5">
+                    className="relative  flex items-center justify-center h-16 w-16 md:h-24 md:w-24 mb-5">
               <Image
                 src={RoundBtn}
                 alt="Button"

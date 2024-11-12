@@ -14,8 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Creele || Africa Stories, Global Pulse",
-  description: "Creele is a family entertainment and trans-media production studio.",
+  title: "Creele Studios | African Stories Global Pulse",
+  description:
+    "Creele is a family entertainment and trans-media production studio.",
 };
 
 export default function RootLayout({

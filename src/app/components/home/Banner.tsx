@@ -13,7 +13,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 import { Autoplay } from "swiper/modules";
 
 gsap.registerPlugin(useGSAP);
@@ -65,21 +64,18 @@ export default function Banner(props: { route: fullpageApi }) {
                 Welcome to Creele <br /> Animation Studios
               </h1>
               <p className="latestNews lg:max-w-5xl md:max-w-xl mx-auto lg:text-lg md:text-base text-sm text-pretty">
-                Welcome to a world of adventure and magnificent African stories.
                 At Creele Studios we are leading a global indigenous IP Push,
                 bringing Africa's rich culture and heritage to life through
                 animation. Discover next-generation African stories across our
                 diverse media outlets, including TV, film, radio, games, social
-                platform, etc. We are proud to be conduits of authentic African
-                content, delivering fresh narratives that resonate with global
-                audiences.
+                platform.
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="space-y-4">
               <h1 className="latestNews">
-                Africa Stories, <br /> Global Pulse
+                African Stories, <br /> Global Pulse
               </h1>
               <p className="latestNews lg:max-w-2xl md:max-w-xl mx-auto md:text-base text-sm text-pretty">
                 Creele is a family entertainment and trans-media production

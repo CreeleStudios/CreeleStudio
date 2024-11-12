@@ -11,6 +11,7 @@ export default function OurProjects(props: {
   content: string;
   image: any;
   projectUrl: string;
+  released: boolean;
 }) {
   return (
     <div className="padding xl:items-end pt-32 items-center flex md:pb-24 pb-16 justify-center w-screen min-h-screen">
@@ -74,7 +75,7 @@ export default function OurProjects(props: {
             {props.content}
           </motion.p>
           <div className="pt-4">
-            <Link href={`/${props.projectUrl}`} className="inline-block">
+            <Link href={props.released ? `/${props.projectUrl}` : '/projects'} className="inline-block">
               <motion.button
                 initial={{
                   translateY: 100,

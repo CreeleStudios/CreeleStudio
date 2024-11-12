@@ -1,15 +1,15 @@
 "use client";
 import ReactFullpage, { fullpageApi } from "@fullpage/react-fullpage";
-import Navbar from "./components/Navbar";
-import Banner from "./components/home/Banner";
-import Footer from "./components/Footer";
-import ContactC from "./components/contact/Contact";
-import Music from "./components/home/Music";
-import ServiceS from "./components/home/ServiceS";
-import ProjectS from "./components/home/ProjectS";
-import VideoS from "./components/home/VideoS";
-import AboutS from "./components/home/AboutS"; 
-import { useEffect} from "react";
+import Navbar from "../components/Navbar";
+import Banner from "../components/home/Banner";
+import Footer from "../components/Footer";
+import ContactC from "../components/contact/Contact";
+import Music from "../components/home/Music";
+import ServiceS from "../components/home/ServiceS";
+import ProjectS from "../components/home/ProjectS";
+import VideoS from "../components/home/VideoS";
+import AboutS from "../components/home/AboutS";
+import { useEffect } from "react";
 
 declare global {
   interface Window {

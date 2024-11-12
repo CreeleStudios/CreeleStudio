@@ -9,7 +9,7 @@ export default function AboutS() {
     <section className="section about md:items-end justify-end">
       <div>
         <div className="flex items-end h-screen lg:items-center xl:items-end">
-          <div className="relative z-10 grid lg:grid-cols-2 items-center w-screen max-h-screen overflow-hidden">
+          <div className="relative z-10 grid lg:grid-cols-2 items-center xl:pr-32 w-screen max-h-screen overflow-hidden">
             <div className="px-5 md:pl-12 lg:pl-20 xl:pl-28 text-left space-y-3">
               <motion.h2
                 initial={{
